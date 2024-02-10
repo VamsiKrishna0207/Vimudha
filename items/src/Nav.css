@@ -1,0 +1,64 @@
+
+/* Assuming you have a separate CSS file for styling */
+
+/* Basic styling for the navbar */
+.navbar {
+  background-color: #7d3ee2;
+  color: linear-gradient(to right, white 50%, black 0);
+  padding: 1rem;
+  justify-content: space-around;
+
+}
+h1{
+   margin-left: 5rem;
+  font-size: 27px;
+}
+.navButton{
+  border-radius: 5px;
+  margin: 5px;
+}
+.navButton:hover{
+  background-color: brown;
+}
+/* Center the logo and company name */
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+   margin-left: 20px;
+}
+
+/* Style the logo image */
+.logo img {
+  width: 70px;
+  max-height: 70px; /* Adjust as needed */
+}
+.navItems{
+  margin-left: 7rem;
+}
+
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .navContainer {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center-align text */
+  }
+  .logo img {
+    margin-bottom: 1rem; /* Space between logo and company name */
+  }
+  .dream {
+    font-size: 0.8rem; /* Smaller font size for tagline */
+  }
+  .navButton {
+    margin-top: 0.5rem; /* Space between buttons */
+  }
+}
+
+.dream{
+  padding-left: 18rem;
+  font-size: 18px;
+  font-family:"Brush Script MT", cursive;
+}
+
